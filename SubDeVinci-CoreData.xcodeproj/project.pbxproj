@@ -3,29 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0409C852BD0EA03007FDC4B /* StorageStudents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0409C832BD0EA03007FDC4B /* StorageStudents.xcdatamodeld */; };
-		F0409CFE2BD15F02007FDC4B /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0409CFD2BD15F02007FDC4B /* ContentViewModel.swift */; };
+		0A07BA1D2CBE92CC00C1AD45 /* StorageStudents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A07BA1B2CBE92CC00C1AD45 /* StorageStudents.xcdatamodeld */; };
+		0A07BA212CBEAA0900C1AD45 /* MenuAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A07BA202CBEAA0900C1AD45 /* MenuAppView.swift */; };
+		0A07BA242CBEAACA00C1AD45 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A07BA232CBEAACA00C1AD45 /* MainView.swift */; };
 		F0D2B5A52BD0786A00BDD55F /* SubDeVinci_CoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2B5A42BD0786A00BDD55F /* SubDeVinci_CoreDataApp.swift */; };
-		F0D2B5A72BD0786A00BDD55F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2B5A62BD0786A00BDD55F /* ContentView.swift */; };
 		F0D2B5A92BD0786C00BDD55F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D2B5A82BD0786C00BDD55F /* Assets.xcassets */; };
 		F0D2B5AC2BD0786C00BDD55F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D2B5AB2BD0786C00BDD55F /* Preview Assets.xcassets */; };
-		F0D2B5B82BD0797500BDD55F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2B5B72BD0797500BDD55F /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F0409C842BD0EA03007FDC4B /* StorageStudents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StorageStudents.xcdatamodel; sourceTree = "<group>"; };
-		F0409CFD2BD15F02007FDC4B /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		0A07BA1C2CBE92CC00C1AD45 /* StorageStudents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StorageStudents.xcdatamodel; sourceTree = "<group>"; };
+		0A07BA202CBEAA0900C1AD45 /* MenuAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAppView.swift; sourceTree = "<group>"; };
+		0A07BA232CBEAACA00C1AD45 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F0D2B5A12BD0786A00BDD55F /* SubDeVinci-CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SubDeVinci-CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D2B5A42BD0786A00BDD55F /* SubDeVinci_CoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubDeVinci_CoreDataApp.swift; sourceTree = "<group>"; };
-		F0D2B5A62BD0786A00BDD55F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F0D2B5A82BD0786C00BDD55F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0D2B5AB2BD0786C00BDD55F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F0D2B5B72BD0797500BDD55F /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0A07BA222CBEAA4300C1AD45 /* brouillon */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = brouillon; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F0D2B59E2BD0786A00BDD55F /* Frameworks */ = {
@@ -58,10 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				F0D2B5A42BD0786A00BDD55F /* SubDeVinci_CoreDataApp.swift */,
-				F0D2B5A62BD0786A00BDD55F /* ContentView.swift */,
-				F0409CFD2BD15F02007FDC4B /* ContentViewModel.swift */,
-				F0D2B5B72BD0797500BDD55F /* DataController.swift */,
-				F0409C832BD0EA03007FDC4B /* StorageStudents.xcdatamodeld */,
+				0A07BA202CBEAA0900C1AD45 /* MenuAppView.swift */,
+				0A07BA232CBEAACA00C1AD45 /* MainView.swift */,
+				0A07BA222CBEAA4300C1AD45 /* brouillon */,
+				0A07BA1B2CBE92CC00C1AD45 /* StorageStudents.xcdatamodeld */,
 				F0D2B5A82BD0786C00BDD55F /* Assets.xcassets */,
 				F0D2B5AA2BD0786C00BDD55F /* Preview Content */,
 			);
@@ -90,6 +92,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0A07BA222CBEAA4300C1AD45 /* brouillon */,
 			);
 			name = "SubDeVinci-CoreData";
 			productName = "SubDeVinci-CoreData";
@@ -146,11 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0D2B5A72BD0786A00BDD55F /* ContentView.swift in Sources */,
-				F0D2B5B82BD0797500BDD55F /* DataController.swift in Sources */,
+				0A07BA242CBEAACA00C1AD45 /* MainView.swift in Sources */,
+				0A07BA212CBEAA0900C1AD45 /* MenuAppView.swift in Sources */,
 				F0D2B5A52BD0786A00BDD55F /* SubDeVinci_CoreDataApp.swift in Sources */,
-				F0409C852BD0EA03007FDC4B /* StorageStudents.xcdatamodeld in Sources */,
-				F0409CFE2BD15F02007FDC4B /* ContentViewModel.swift in Sources */,
+				0A07BA1D2CBE92CC00C1AD45 /* StorageStudents.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,14 +362,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F0409C832BD0EA03007FDC4B /* StorageStudents.xcdatamodeld */ = {
+		0A07BA1B2CBE92CC00C1AD45 /* StorageStudents.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F0409C842BD0EA03007FDC4B /* StorageStudents.xcdatamodel */,
+				0A07BA1C2CBE92CC00C1AD45 /* StorageStudents.xcdatamodel */,
 			);
-			currentVersion = F0409C842BD0EA03007FDC4B /* StorageStudents.xcdatamodel */;
-			name = StorageStudents.xcdatamodeld;
-			path = "/Users/guillaume/Developer/SupDeVinciB3/SubDeVinci-CoreData/SubDeVinci-CoreData/StorageStudents.xcdatamodeld";
+			currentVersion = 0A07BA1C2CBE92CC00C1AD45 /* StorageStudents.xcdatamodel */;
+			path = StorageStudents.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

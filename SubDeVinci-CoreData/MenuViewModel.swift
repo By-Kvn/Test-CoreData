@@ -1,5 +1,5 @@
 //
-//  DataController.swift
+//  MenuViewModel.swift
 //  SubDeVinci-CoreData
 //
 //  Created by Kevin Labatte on 15/10/2024.
