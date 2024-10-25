@@ -13,7 +13,7 @@ struct SubDeVinci_CoreDataApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
             // Environnement : Data de base au lancement de l'application
                 //.environment(\.managedObjectContext, dataController.container.viewContext)
         }
